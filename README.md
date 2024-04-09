@@ -1,2 +1,2 @@
-# projectblogpost.github.io
-project blog post alx 
+# qrcode.github.io
+QR scan code
