@@ -24,9 +24,11 @@ body {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    color: antiquewhite;
+    font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #ffffff;
+    position: relative;
+    animation: scaleInOut 3s ease infinite alternate; /* alternate makes it repeat back and forth */
 }
 
 .buttons {
@@ -48,17 +50,31 @@ body {
 }
 
 .social-button:hover {
-    background-color: #0056b3;
+    background-color: #101112;
 }
 
 .github {
     background-color: #e1306c;
 }
 
-.linkedin {
+.facebook {
     background-color: #3b5998;
 }
 .WhatsApp {
-    background-color: #25d366;
+    background-color: #0beb65;
 }
+
 /* Add more styles for other social media platforms */
+
+/* Animation */
+@keyframes scaleInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
